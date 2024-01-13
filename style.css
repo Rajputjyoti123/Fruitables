@@ -1,5 +1,7 @@
 *{
     font-family: sans-serif;
+    padding: 0;
+    margin: 0;
 }
 
 .nav1{
@@ -20,17 +22,38 @@
 .op{
     margin-left: 300px;
 }
+.navbar{
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    border-top: none;
+}
+.demonav
+{
+    position: -webkit-sticky;
+    position: sticky;
+    display: inline-block;
+    background-color: white;
+    height: 100px;
+    width: 80%;
+    z-index: 6;
+    opacity: 1;
+    justify-content: space-evenly;
+    /* margin-left: 140; */
+    top:0;
+}
 .nav2{
   
-    width: 80%;
+   /* width: 80%;
     height: 100px;
+    position:webkit-sticky;
     position: sticky;
-    display: flex;
+    display: inline-block;
     align-items: center;
     /* justify-content: space-evenly; */
-   margin-left: 140px;
-   position: relative;
-}
+   /*position: -webkit-sticky;
+   position: sticky;*/
+  }
 .nav2a h1{
     line-height: 1.2;
     font-size: 37px;
@@ -55,7 +78,6 @@
 .nav2b li{
     margin-left: 20px;
    line-height: 0px;
-   margin-top: -20px;
 }
 
 .content{
